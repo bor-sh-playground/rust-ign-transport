@@ -1,0 +1,4 @@
+[package]
+name = "ign-transport"
+version = "0.1.0"
+authors = ["b-sh <b-sh@gmx.net>"]
