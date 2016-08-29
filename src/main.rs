@@ -1,10 +1,12 @@
 #[link(name = "gz_wrapper")]
 extern {
     pub fn run();
+    pub fn pub_pos();
 }
 
 fn main() {
     unsafe {
-        run();
+        pub_pos();
+//        run();
     }
 }
