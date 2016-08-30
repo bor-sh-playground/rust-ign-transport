@@ -1,4 +1,8 @@
+extern crate protobuf; // depend on rust-protobuf runtime
 extern crate libc;
+
+mod proto;
+
 use libc::{c_int, c_char};
 use std::ffi::CString;
 

@@ -5,3 +5,6 @@ authors = ["b-sh <b-sh@gmx.net>"]
 
 [dependencies]
 libc = "0.2.15"
+
+[dependencies.protobuf]
+rust-protobuf="1.0.24"
